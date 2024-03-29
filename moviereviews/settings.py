@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'movie.apps.MovieConfig',
     # 'movie',
     'news',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,5 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = [
     BASE_DIR / 'moviereviews/static/',
 ]
+
+LOGIN_URL = 'loginaccount'
